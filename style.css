@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#Progress_Status {
+  width: 50%;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+  
+#myprogressBar {
+  width: 2%;
+  height: 20px;
+  background-color: #6699FF;
+  text-align: center;
+  line-height: 20px;
+  color: #FFFFFF;
+  border-radius: 15px;
+
+}
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 25px;
+background-color: lightblue;
+}
+
+.botao{
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: darkblue;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 5px #0099;
+}
+.botao:hover{
+  background-color: #0000DD;
+}
+.botao:active{
+  background-color: #000066;
+  box-shadow: 0 5px #666;
+  transform: translate(10px);
+
+}
+#valor{
+  border-radius: 5px;
+ text-align: center;
+
+}
+.titulo{
+  box-shadow: 0 5px #0099;
+}
