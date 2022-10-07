@@ -1,4 +1,4 @@
-function update() {
+function update(valor) {
   var element = document.getElementById("myprogressBar");   
   var width = -1;
   var identity = setInterval(scene, 15);
